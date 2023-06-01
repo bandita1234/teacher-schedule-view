@@ -1,0 +1,102 @@
+/* header css */
+.m_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:30px;
+    background-color: #45f3ff87;
+    height: 50px;
+}
+
+/* login css */
+  .signup_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    color: #fff;
+    background-color: #23242a;
+  }
+  .signup_container {
+    width: 440px;
+    height: 400px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    padding: 50px 40px;
+  }
+  .header {
+    color: #45f3ff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+  .inputbox{
+    position: relative;
+    margin-top: 30px;
+  }
+  .inputbox input{
+    width: 100%;
+    padding: 14px 14px 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    /* color: #23242a; */
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0.08em;
+  }
+  .inputbox span {
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    padding: 14px;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.08em;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  /* .inputbox input:valid ~ span, .inputbox input:focus ~ span{ */
+  .inputbox input:valid ~ span,
+  .inputbox input:focus ~ span {
+    color: #45f3ff;
+    transform: translateY(-36px);
+    font-size: 0.8rem;
+  }
+  .inputbox hr{
+    background-color: #45f3ff;
+    height: 2px;
+    border: none;
+    pointer-events: none;
+  }
+  
+  .signup_btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #45f3ff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .btn_div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .s_header {
+    color: #4589ff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    /* text-align: center; */
+    letter-spacing: 0.1em;
+  }
+  .s_signup_main{
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #23242a;
+  }
+  
